@@ -7,7 +7,7 @@ body {
 	margin: 0px;
 	padding: 30px;
 	background-color: #F8F0E3;
-	overflow: hidden;
+	overflow: visible;
 }
 
 canvas{

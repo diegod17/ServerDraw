@@ -182,6 +182,7 @@ localSavedLikes[Index].state = state;
             let p = document.createElement("p");
             let by = document.createElement("by");
             p.innerText = "Top rated drawing";
+            by.id = "by";
             by.innerText = "By: " + data[0].name
             hold.appendChild(p);
             hold.appendChild(by);
@@ -192,6 +193,7 @@ localSavedLikes[Index].state = state;
             else
             {
                 document.getElementById("BigImg").src = data[0].fileName;
+                document.getElementById("by").innerText ="By: " + data[0].name
             }
         });
 
